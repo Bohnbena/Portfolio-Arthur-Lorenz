@@ -3,6 +3,7 @@ defineProps({
   skills: String,
   source: String,
   precent: String,
+  color: String,
 });
 </script>
 
@@ -16,6 +17,7 @@ defineProps({
         type="line"
         :percentage="Number(precent)"
         indicator-placement="inside"
+        :color="color"
     />
   </div>
 </template>

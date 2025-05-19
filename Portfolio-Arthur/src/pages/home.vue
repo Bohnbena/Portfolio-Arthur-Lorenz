@@ -6,8 +6,6 @@
   import mongodb from '../assets/All_logo_and_pictures-main/databases/mongodb.svg'
   import mysql from '../assets/All_logo_and_pictures-main/databases/mysql.svg'
   import intelji from '../assets/All_logo_and_pictures-main/ides/intellij.svg'
-
-
   import skill from '../components/skill.vue'
 </script>
 
@@ -19,15 +17,15 @@
     </section>
   </div>
 
-  <div class="font-big-text col-start-5 col-end-13 row-start-3 pt-10 pr-10">
+  <div class="font-big-text col-start-5 col-end-13 row-start-3 pt-10 pr-10 md:col-start-3 md:col-end-8">
     <p>
       Ich bin 22 Jahre alt und befinde mich aktuell in der Ausbildung zum Anwendungsentwickler. Meine Leidenschaft gilt
       der Programmierung.
     </p>
   </div>
 
-  <div class="col-start-5 col-end-13 row-start-5 font-big-text ">
-    <section id="wer" class="pr-10">
+  <div class="col-start-5 col-end-13 row-start-5 font-big-text md:col-start-3 ">
+    <section id="wer" class="pr-10 md:pr-44">
       <n-collapse>
         <n-collapse-item title="Meine Leidenschaft ✨" name="1">
           <div>
@@ -51,33 +49,38 @@
       </n-collapse>
     </section>
 
-    <div class="pt-32 pr-5">
+    <div class="pt-32 pr-5  md:col-start-3 md:pr-56">
       <n-space vertical>
         <selection id="fahigkeiten">
           <skill
               skills="java"
               :source="java"
               precent="75"
+              color="orange"
           ></skill>
           <skill
               skills="git"
               :source="git"
               precent="70"
+              color="red"
           ></skill>
           <skill
               skills="mysql"
               :source="mysql"
               precent="70"
+              color="blue"
           ></skill>
           <skill
               skills="vuejs"
               :source="vue"
               precent="65"
+              color="green"
           ></skill>
           <skill
               skills="golang"
               :source="go"
               precent="50"
+              color="brightblue"
           ></skill>
 
           <n-collapse class="mt-10">
@@ -87,11 +90,13 @@
                     skills="intelji"
                     :source="intelji"
                     precent="50"
+                    color="black"
                 ></skill>
                 <skill
                     skills="mongodb"
                     :source="mongodb"
                     precent="35"
+                    color="green"
                 ></skill>
               </div>
 
