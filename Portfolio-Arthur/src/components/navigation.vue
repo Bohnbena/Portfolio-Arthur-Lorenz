@@ -1,10 +1,9 @@
-<script setup>
+<script>
 
 </script>
 
 <template>
-  <div class="row-start-6">
-  </div>
+
 </template>
 
 <style scoped>

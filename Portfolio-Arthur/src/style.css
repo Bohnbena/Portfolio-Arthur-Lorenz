@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+.font-main {
+    font-family: "Varela", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

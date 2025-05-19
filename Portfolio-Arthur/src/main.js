@@ -1,5 +1,4 @@
-// src/main.js
-import { createApp } from 'vue'
+import { createApp, h } from 'vue'
 import App from './App.vue'
 import './style.css'
 
@@ -8,13 +7,29 @@ import 'aos/dist/aos.css'
 
 import naive from 'naive-ui'
 import router from './router'
+import { NConfigProvider } from 'naive-ui'
 
-const app = createApp(App)
+const app = createApp({
+    render: () =>
+        h(NConfigProvider, {
+            themeOverrides: {
+                Anchor: {
+                    linkFontSize: '16px',
+                    linkPadding: '5px 10px',
+                    linkTextColor: 'gray',       // Gelb
+                    linkTextColorActive: 'black', // Weiß
+                    linkTextColorHover: 'black',  // Schwarz
+                    linkTextColorPressed: 'black',// Schwarz
+                    linkTextColorFocus: '#8fd3f2',  // Schwarz
+                    linkColor: '#b0dff5',
+                    railColorActive : 'black',
+                }
+            }
+        }, { default: () => h(App) })
+})
 
-app.use(naive)
 app.use(router)
-
-
-app.mount('#app')
+app.use(naive)
 
 AOS.init()
+app.mount('#app')
