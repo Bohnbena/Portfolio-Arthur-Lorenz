@@ -146,7 +146,7 @@ import skill from '../components/skill.vue'
       </n-space>
     </div>
 
-    <div class="mt-30 pr-5">
+    <div class="mt-30 pr-5 lg:ml-80 md:ml-55">
       <selection id="erfahrung">
         <n-timeline>
           <n-timeline-item
@@ -216,10 +216,27 @@ import skill from '../components/skill.vue'
       </slection>
     </div>
 
-  </div>
 
+    <div>
+      <selection id="kontakt">
+      <div class="flex flex-col gap-3">
+        <p class="text-2xl font-bold mt-30 ">Kontakt</p>
+        <div class="flex gap-3">
+          <p>E-Mail:</p>
+          <div>
+            <p>Arthur1010519@gmail.com</p>
+          </div>
+        </div>
+        <div class="text-blue-300">
+          <a href="https://www.linkedin.com/in/arthur-lorenz-450ba2327/">LinkedIn</a>
+        </div>
+      </div>
+      </selection>
+    </div>
 
-  <div class="row-start-6">
+    <div class="mt-70">
+      <p>Diese Seite wurde Erstellt mit Vite,Vue,TailwindCSS,NaiveUI</p>
+    </div>
   </div>
 </template>
 

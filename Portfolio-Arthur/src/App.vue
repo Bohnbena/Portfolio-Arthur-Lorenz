@@ -1,17 +1,14 @@
 <script setup>
 import icon from './assets/menu.png'
 import {ref} from "vue";
-
 const menuOpen = ref(true);
 </script>
 
 <template>
   <div class="min-h-screen grid grid-cols-12 auto-rows-[100px]">
-
     <button @click="menuOpen = !menuOpen" class="fixed justify-center left-5 top-5 cursor-pointer">
       <img :src="icon" alt="icon" class="w-6 h-6"/>
     </button>
-
     <transition name="slide">
       <div class="row-start-4" v-show="menuOpen">
         <div class="fixed w-28 text-6xl pl-2 font-main sm:w-44">
@@ -34,9 +31,7 @@ const menuOpen = ref(true);
         </div>
       </div>
     </transition>
-
-    <div class="row-start-1 row-end-50  ">
-
+    <div class="row-start-1 row-end-47 md:row-end-31">
     </div>
     <router-view/>
   </div>
