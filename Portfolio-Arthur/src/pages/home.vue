@@ -49,7 +49,7 @@
       </n-collapse>
     </section>
 
-    <div class="pt-32 pr-5  md:col-start-3 md:pr-56">
+    <div class="pt-28 pr-5  md:col-start-3 md:pr-14">
       <n-space vertical>
         <selection id="fahigkeiten">
           <skill
@@ -103,15 +103,50 @@
             </n-collapse-item>
           </n-collapse>
 
+          <n-space vertical class="mt-10">
+            <n-card title="Soft Skills & Arbeitsweise" size="small">
+              <div class="flex flex-col gap-3">
+                <div>
+                  - ich schätze klare Kommunikation und arbeite gerne im Team, um gemeinsame Ziele zu erreichen.
+                </div>
+                <div>
+                  - Feedback betrachte ich als Chance, mich weiterzuentwickeln.
+                </div>
+              </div>
+            </n-card>
+            <n-card title="Lernbereitschaft & Entwicklung" size="small" class="mt-5">
+              <div class="flex flex-col gap-3">
+                <div>
+                  - Ich bilde mich regelmäßig weiter, um technisch und fachlich auf dem neuesten Stand zu bleiben.
+                </div>
+                <div>
+                  - in meiner Freizeit beschäftige ich mich gerne mit neuen Technologien und Programmiersprachen wie mit Vue + Vite und diversen Frameworks.
+                </div>
+              </div>
+            </n-card>
+            <n-card title="Motivation & Haltung" size="small" class="mt-5">
+              <div class="flex flex-col gap-3">
+                <div>
+                  - Meine Leidenschaft für Technik entsteht aus dem Wunsch, kreative und sinnvolle Lösungen für reale Probleme zu entwickeln.
+                </div>
+                <div>
+                  -  Ich arbeite gerne an sinnvollen Anwendungen, die Nutzer*innen echten Mehrwert bieten.
+                </div>
+                <div>
+                  - Dabei begeistert mich nicht nur das Ergebnis, sondern auch der Weg dorthin – vom ersten Konzept bis zum letzten Feinschliff im Code.
+                </div>
+              </div>
+            </n-card>
+          </n-space>
+
         </selection>
       </n-space>
     </div>
 
   </div>
 
-  <div class="col-start-5 col-end-12 row-start-12">
+  <div class="col-start-5 col-end-12 row-start-20">
   </div>
-
 
   <div class="row-start-6">
   </div>
