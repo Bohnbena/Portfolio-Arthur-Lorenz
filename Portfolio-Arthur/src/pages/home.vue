@@ -195,6 +195,27 @@ import skill from '../components/skill.vue'
       </selection>
     </div>
 
+    <div>
+      <slection id="zukunft">
+      <div class="pr-10 flex flex-col gap-3" >
+        <p class="font-bold text-2xl mt-30">Blick in die Zukunft</p>
+        <div>
+          <p class="flex flex-col gap-4">
+            <div>
+              Ich wünsche mir für die Zukunft ein Projekt, bei dem ich meine volle Leidenschaft für Technik und Entwicklung einbringen kann. Besonders wichtig ist mir dabei, an etwas zu arbeiten, das nicht nur funktional ist, sondern echte Wirkung zeigt – sei es im Alltag von Nutzer*innen oder innerhalb eines Teams.
+            </div>
+            <div>
+              Ich möchte meine bestehenden Kenntnisse kontinuierlich erweitern und mich in neue Technologien einarbeiten – sowohl im Frontend als auch im Backend. Gleichzeitig fasziniert mich der Bereich Embedded Systems, weil hier Software auf Hardware trifft und spannende Herausforderungen entstehen.
+            </div>
+            <div>
+              Mein Ziel ist es, in einem Umfeld zu arbeiten, in dem ich wachsen, lernen und mit anderen gemeinsam innovative Lösungen schaffen kann.
+            </div>
+          </p>
+        </div>
+      </div>
+      </slection>
+    </div>
+
   </div>
 
 
