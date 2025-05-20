@@ -11,23 +11,23 @@ import skill from '../components/skill.vue'
 
 <template>
 
-  <div class="row-start-2 row-end-2 col-start-3 col-end-7 font-bold text-5xl uppercase">
+  <div class="row-start-2 row-end-2 col-start-3 col-end-7 font-bold text-5xl uppercase" data-aos="fade-left" data-aos-duration="2000">
     <section id="start">
       <p>Arthur Lorenz</p>
     </section>
   </div>
 
-  <div class="font-big-text col-start-5 col-end-13 row-start-3 pt-10 pr-10 md:col-start-3 md:col-end-8">
+  <div class="font-big-text col-start-5 col-end-13 row-start-3 pt-10 pr-10 md:col-start-3 md:col-end-8" data-aos="fade-up" data-aos-duration="2000">
     <p>
       Ich bin 22 Jahre alt und befinde mich aktuell in der Ausbildung zum Anwendungsentwickler. Meine Leidenschaft gilt
       der Programmierung.
     </p>
   </div>
 
-  <div class="col-start-5 col-end-13 row-start-5 font-big-text md:col-start-3 ">
-    <section id="wer" class="pr-10 md:pr-44">
+  <div class="col-start-5 col-end-13 row-start-5 font-big-text md:col-start-3">
+    <section id="wer" class="pr-10 md:pr-44"  data-aos="fade-up" data-aos-duration="2000">
       <n-collapse>
-        <n-collapse-item title="Meine Leidenschaft ✨" name="1">
+        <n-collapse-item title="Meine Leidenschaft ✨" name="1" >
           <div>
             Ich liebe es, neue Dinge zu lernen und zu erforschen. Die Welt der Softwareentwicklung fasziniert mich, weil
             sie ständig neue Herausforderungen und Möglichkeiten bietet, mich weiterzuentwickeln.
@@ -58,33 +58,38 @@ import skill from '../components/skill.vue'
               :source="java"
               precent="75"
               color="orange"
+              data-aos="fade-right" data-aos-duration="2000"
           ></skill>
           <skill
               skills="git"
               :source="git"
               precent="70"
               color="red"
+              data-aos="fade-right" data-aos-duration="2000"
           ></skill>
           <skill
               skills="mysql"
               :source="mysql"
               precent="70"
               color="blue"
+              data-aos="fade-right" data-aos-duration="2000"
           ></skill>
           <skill
               skills="vuejs"
               :source="vue"
               precent="65"
               color="green"
+              data-aos="fade-right" data-aos-duration="2000"
           ></skill>
           <skill
               skills="golang"
               :source="go"
               precent="50"
               color="brightblue"
+              data-aos="fade-right" data-aos-duration="2000"
           ></skill>
 
-          <n-collapse class="mt-10">
+          <n-collapse class="mt-10" data-aos="fade-right" data-aos-duration="2000">
             <n-collapse-item title="Weiteres" name="" class="">
               <div class="ml-10">
                 <skill
@@ -105,7 +110,7 @@ import skill from '../components/skill.vue'
           </n-collapse>
 
           <n-space vertical class="mt-10">
-            <n-card title="Soft Skills & Arbeitsweise" size="small">
+            <n-card title="Soft Skills & Arbeitsweise" size="small" data-aos="fade-right" data-aos-duration="2000">
               <div class="flex flex-col gap-3">
                 <div>
                   - ich schätze klare Kommunikation und arbeite gerne im Team, um gemeinsame Ziele zu erreichen.
@@ -115,7 +120,7 @@ import skill from '../components/skill.vue'
                 </div>
               </div>
             </n-card>
-            <n-card title="Lernbereitschaft & Entwicklung" size="small" class="mt-5">
+            <n-card title="Lernbereitschaft & Entwicklung" size="small" class="mt-5" data-aos="fade-right" data-aos-duration="2000">
               <div class="flex flex-col gap-3">
                 <div>
                   - Ich bilde mich regelmäßig weiter, um technisch und fachlich auf dem neuesten Stand zu bleiben.
@@ -126,7 +131,7 @@ import skill from '../components/skill.vue'
                 </div>
               </div>
             </n-card>
-            <n-card title="Motivation & Haltung" size="small" class="mt-5">
+            <n-card title="Motivation & Haltung" size="small" class="mt-5" data-aos="fade-right" data-aos-duration="2000">
               <div class="flex flex-col gap-3">
                 <div>
                   - Meine Leidenschaft für Technik entsteht aus dem Wunsch, kreative und sinnvolle Lösungen für reale
@@ -146,7 +151,7 @@ import skill from '../components/skill.vue'
       </n-space>
     </div>
 
-    <div class="mt-30 pr-5 lg:ml-80 md:ml-55">
+    <div class="mt-30 pr-5 lg:ml-80 md:ml-55" data-aos="fade-right" data-aos-duration="2000">
       <selection id="erfahrung">
         <n-timeline>
           <n-timeline-item
@@ -196,7 +201,7 @@ import skill from '../components/skill.vue'
     </div>
 
     <div>
-      <slection id="zukunft">
+      <slection id="zukunft" data-aos="fade-right" data-aos-duration="2000">
       <div class="pr-10 flex flex-col gap-3" >
         <p class="font-bold text-2xl mt-30">Blick in die Zukunft</p>
         <div>
@@ -218,7 +223,7 @@ import skill from '../components/skill.vue'
 
 
     <div>
-      <selection id="kontakt">
+      <selection id="kontakt" data-aos="fade-right" data-aos-duration="2000">
       <div class="flex flex-col gap-3">
         <p class="text-2xl font-bold mt-30">Kontakt</p>
         <div class="flex gap-3">
