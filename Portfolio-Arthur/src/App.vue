@@ -31,7 +31,7 @@ const menuOpen = ref(true);
         </div>
       </div>
     </transition>
-    <div class="row-start-1 row-end-47 md:row-end-31">
+    <div class="row-start-1 row-end-47 sm:row-end-40 md:row-end-45 lg:row-end-38">
     </div>
     <router-view/>
   </div>

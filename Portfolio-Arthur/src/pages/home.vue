@@ -220,7 +220,7 @@ import skill from '../components/skill.vue'
     <div>
       <selection id="kontakt">
       <div class="flex flex-col gap-3">
-        <p class="text-2xl font-bold mt-30 ">Kontakt</p>
+        <p class="text-2xl font-bold mt-30">Kontakt</p>
         <div class="flex gap-3">
           <p>E-Mail:</p>
           <div>
