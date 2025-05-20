@@ -238,7 +238,7 @@ import skill from '../components/skill.vue'
     </div>
 
     <div class="mt-70">
-      <p>Diese Seite wurde Erstellt mit Vite,Vue,TailwindCSS,NaiveUI</p>
+      <p>Diese Seite wurde Erstellt mit Vite,Vue,TailwindCSS,NaiveUI,AOS</p>
     </div>
   </div>
 </template>

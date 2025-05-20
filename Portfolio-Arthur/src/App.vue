@@ -10,8 +10,8 @@ const menuOpen = ref(true);
       <img :src="icon" alt="icon" class="w-6 h-6"/>
     </button>
     <transition name="slide">
-      <div class="row-start-4" v-show="menuOpen">
-        <div class="fixed w-28 text-6xl pl-2 font-main sm:w-44">
+      <div class="fixed row-start-4 top-64" v-show="menuOpen">
+        <div class=" w-28 text-6xl pl-2 font-main sm:w-44">
           <n-anchor
               affix
               listen-to=".document-scroll-container"
@@ -37,7 +37,7 @@ const menuOpen = ref(true);
   </div>
 </template>
 
-<style scoped>
+<style scoped >
 
 .n-anchor-link {
   font-size: 12px;
