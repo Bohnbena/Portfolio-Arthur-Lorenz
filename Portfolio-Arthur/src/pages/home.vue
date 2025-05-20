@@ -163,7 +163,7 @@ import skill from '../components/skill.vue'
           <n-timeline-item
               type="success"
               title="Gymnasium Talant - Kirgistan,Bischkek"
-              content="Allgemeinbildende Schulabschluss"
+              content="Allgemeinbildender Schulabschluss"
               time="2016 - 2020"
           />
           <n-timeline-item
@@ -229,6 +229,9 @@ import skill from '../components/skill.vue'
         </div>
         <div class="text-blue-300">
           <a href="https://www.linkedin.com/in/arthur-lorenz-450ba2327/">LinkedIn</a>
+        </div>
+        <div class="text-blue-300">
+          <a href="https://github.com/Bohnbena">Github</a>
         </div>
       </div>
       </selection>
