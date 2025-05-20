@@ -26,7 +26,7 @@ const menuOpen = ref(true);
             <n-anchor-link title="Start" href="#start">
               <n-anchor-link title="Wer bin ich?" href="#wer"/>
               <n-anchor-link title="Fähigkeiten" href="#fahigkeiten"/>
-              <n-anchor-link title="Erfahrungen" href="#erfahrung"/>
+              <n-anchor-link title="Lebenslauf" href="#erfahrung"/>
               <n-anchor-link title="Zukunft" href="#zukunft"/>
             </n-anchor-link>
             <n-anchor-link title="Kontakt" href="#kontakt"/>
